@@ -1,0 +1,32 @@
+{
+  "name": "practicanube2-cafeteria",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlanDVarela/PracticaNube2-Cafeteria.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlanDVarela/PracticaNube2-Cafeteria/issues"
+  },
+  "homepage": "https://github.com/AlanDVarela/PracticaNube2-Cafeteria#readme",
+  "dependencies": {
+    "@aws-sdk/client-sqs": "^3.1000.0",
+    "dotenv": "^16.4.5",
+    "pg": "^8.19.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.2",
+    "@types/pg": "^8.16.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
